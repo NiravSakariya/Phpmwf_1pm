@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        div
+        {
+            background-color: black;
+            color: white;
+            text-align: center;
+            width:60%;
+            margin-left: 20% ;
+            height:auto;
+        }
+        form
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            padding: 26px;
+        }
+        input
+        {
+            width: 200px;
+            height: auto;
+            padding: 4px;
+        }
+        button
+
+        {
+            width: 100px;
+            height: auto;
+            background-color: green;
+
+        }
+
+        button
+
+        {
+            width: 100px;
+            height: 30px;
+            background-color: green;
+            
+        }
+        
+
+
+        textarea
+        {
+            height: 100px;
+            width: 200px;
+        }
+        /* label
+        {
+            padding: 200px;
+        } */
+        
+       
+    </style>
+</head>
+<body>
+    <div>
+        <p >
+           
+            <span style="color: red; font-size: 40px;"> Ragistration </span> <span style="color: green; font-size: 40px;">  Form </span>  
+        </p>
+        <form method="post" id="frm" name="frm" action="" enctype="multipart/form-data"><br>
+        <label for="name"> Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Name *" required><br><br>
+        <label for="Password"> Password:</label><br>
+        <input type="password" id="Pass" name="pass" placeholder="Password *" required><br><br>
+        <label for="Password">Confirm Password:</label><br>
+        <input type="password" id="CPass" name="Cpass" placeholder=" Confirm Password *" required><br><br>
+
+        <label for="phone"> Phone:</label><br>
+        <input type="tel"  id="number" name="number" placeholder="Phone *" required><br><br>
+         
+        <label> Upload Photo </label><br>
+        <input type="file"   required><br><br>
+         
+        <label> Address </label><br>
+        <textarea name="Address" placeholder="Address" required></textarea> <br><br>
+         
+        
+        
+        <label> Gender *</label>
+            <b style="color: white;"> Male</b>
+            <input type="radio"  name="gender" required style="height: auto; width:auto">
+           <b style="color: white;"> Female</b>
+           <input type="radio"  name="gender" required style="height: auto; width:auto;"><br><br>
+   
+        <button type="submit">Submmit</button>
+        <button type="reset">Reset</button> 
+        <a href="">Forget Password</a><br><br>
+        <b>Already Have An Account? <a href="Form.html">Creat An Account</a></b>
+  </form> 
+        </form>
+    </div>
+</body>
+</html>
