@@ -1,0 +1,123 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background-color: lightgray; */
+    /* background: url('../images/back.gif') no-repeat; */
+    background-color: white;
+    background-size: 100% auto;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+    padding: 0;
+    animation: 1s alternate fadeInUp;
+}
+.navbar-brand
+{
+    color: white;
+    margin-left: 5%;
+    /* animation: 1s fadeIn alternate; */
+    animation: 5s fadeIn infinite;
+}
+.login-heading 
+{
+    animation: 2s heartBeat alternate;
+
+}
+.navbar-link
+{
+    margin-left: 18%;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 5px 25px;
+}
+.navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.content 
+{
+    width: 50%;
+    height: auto;
+    animation: 1s alternate fadeInUp;
+}
+.footer 
+{
+    width: 100%;
+    height: auto;
+    /* margin-top: 15% !important; */
+}
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.content,.reg-form 
+{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    animation: 1s alternate fadeInUp;
+}
+.navbar-link li 
+{
+    display: block;
+}
+} 
+.header
+{
+  position: fixed;
+  top: 0;
+  z-index: 6 !important;
+}
+.content li a
+{
+    
+    text-decoration: none;
+    color: black;   
+}
+.content li
+{
+    list-style: none;
+}
+
+
+
+
+.navbar-collapse li a
+{
+    color: white;   
+}
+.SocialMedia 
+{
+  font-size: 24px;
+  padding: 2px 20px;
+}
+.social-media a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.navbar
+{
+    text-align: center;
+    margin-left: 5px 25px;
+    
+}
+.navbar-brand
+{
+    color: white;
+}
+.nav-link 
+{
+    text-align: center;
+    margin-left: 50px;
+}
