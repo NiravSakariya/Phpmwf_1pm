@@ -1,0 +1,56 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header
+     {
+        text-align: center;
+        color: #fff;
+        background: #059d3d;
+        padding: 40px;
+    }
+.navbar 
+{
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    background-color: black;
+    padding: 30px;
+    font-size: 16px;
+}
+.nav-item
+{
+    margin-left: 20px;
+}
+p
+{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+header .intro-text .name {
+    font-size: 4.75em;
+}
+hr
+ {
+    margin-left: 500px;
+    max-width: 250px;
+    border-top: solid 5px;
+    text-align: center;   
+}
+
+.navbar-nav
+{
+    margin-left: 28%;
+   
+    
+}
+.navbar-brand {
+    float: left;
+    padding: 19.5px 15px;
+    font-size: 20px;
+    line-height: 21px;
+    height: 60px;
+}
+
+
+
